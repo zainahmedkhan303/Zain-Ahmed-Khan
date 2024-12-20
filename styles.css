@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg');
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.10);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 0 0 10px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
